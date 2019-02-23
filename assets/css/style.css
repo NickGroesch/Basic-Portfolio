@@ -105,6 +105,27 @@ input{
 #submit:hover{
     color: yellow;
 }
+.portfolio{
+    display: inline-block;
+}
+/* .imgbut code inspired by https://www.w3schools.com/howto/howto_css_button_on_image.asp */
+.imgbut{    
+    position: relative;
+    width: 50%;
+ }
+ .imgbut img{
+     width: 100%;
+    height: 100%;
+}
+.imgbut .btn{
+    position: absolute;
+    bottom: 20%;
+    height: 20%;
+    width: 100%;
+    background-color: #4aaaa5;
+    color: #cccccc;
+}
+
 
 
 /* footer code */
