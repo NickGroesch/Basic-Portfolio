@@ -92,7 +92,10 @@ input{
     width:100%;
 }
 #message{
-    height:200px;
+    height: 200px;
+    width: 100%;
+    resize: none;
+    overflow: auto;
 }
 #submit {
     padding: 10px;
