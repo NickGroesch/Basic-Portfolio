@@ -4,7 +4,6 @@
     overflow: none;
     color: #777777;
 }
-
 h1,h2,h3,h4,h5,h6{
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -26,7 +25,6 @@ body{
     height: 100%;
     margin: auto;
     position: relative;
-    
 }
 .navbut{
     padding: 36px;
@@ -36,18 +34,32 @@ body{
     bottom: 0px;
     color: #ffffff;
     background: #4aaaa5;
-    display: inline;
+    display: inline-block;
+}
+.navlink{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 40%;
+}
+h5{ 
+    font-size: 18px;
+    color: #cccccc;
+    word-spacing: 5px;
+}
+a{
+    text-decoration: none;
 }
 
 /* middle code */
 .wrapper{
-    height:600px;
+    height:700px;
 }
 .content{
     position: relative;
     top: 50px;
     width: 960px;
-    height: 500px;
+    height: 600px;
     border-style: solid;
     border-width: 2px;
     border-color: #dddddd;
@@ -55,7 +67,6 @@ body{
     padding: 20px;
     margin: auto;
 }
-
 h2{
     position: absolute;
     height: 50px;
@@ -75,58 +86,87 @@ h2{
     margin-top: 20px;
     line-height: 150%;
 }
-#facepic{
-    left: 20;
-    display: inline;
-}
-.aboutme{
-    position: absolute;
-    top: 30px;
-    left: 220px;
-    display: inline-block; 
-    width: 400px;
-    height: 220px;
-    font-size: 18px;
-}
-input{
-    width:100%;
-}
-#message{
-    height: 200px;
-    width: 100%;
-    resize: none;
-    overflow: auto;
-}
-#submit {
-    padding: 10px;
-    background-color: #4aaaa5;
-    color: #cccccc;
-}
-#submit:hover{
-    color: yellow;
-}
-.portfolio{
-    display: inline-block;
-}
-/* .imgbut code inspired by https://www.w3schools.com/howto/howto_css_button_on_image.asp */
-.imgbut{    
-    position: relative;
-    width: 50%;
- }
- .imgbut img{
-     width: 100%;
-    height: 100%;
-}
-.imgbut .btn{
-    position: absolute;
-    bottom: 20%;
-    height: 20%;
-    width: 100%;
-    background-color: #4aaaa5;
-    color: #cccccc;
-}
-
-
+    /* About Me */
+        #facepic{
+            left: 20;
+            display: inline;
+        }
+        .aboutme{
+            position: absolute;
+            top: 30px;
+            left: 220px;
+            display: inline-block; 
+            width: 400px;
+            height: 220px;
+            font-size: 18px;
+        }
+    /* Contact */
+        input{
+            width: 100%;
+        }
+        #message{
+            height: 200px;
+            width: 100%;
+            resize: none;
+            overflow: auto;
+        }
+        #submit {
+            width:100px;
+            height: 30px;
+            background-color: #4aaaa5;
+            color: #ffffff;
+            font-size: 18px;
+        }
+        #submit:hover{
+            color: yellow;
+        }
+    /* Portfolio */
+        .portfolio{
+            display: inline-block;
+            position: relative;
+            width: 920px;
+            top: 15%;    
+        }
+        /* .imgbut code inspired by https://www.w3schools.com/howto/howto_css_button_on_image.asp */
+        .imgbut{
+            float: left;    
+            position: absolute;
+            width: 200px;
+            margin: auto;
+        }
+        .imgbut img{
+            width: 200px;
+            height: 200px;
+        }
+        .btn{
+            position: absolute;
+            bottom: 20%;
+            height: 40px;
+            width: 200px;
+            background-color: #4aaaa5;
+            color: #cccccc;
+        }
+            /* Gallery positioning */
+            #img1{
+                top:0px;
+                left:0px;
+            }
+            #img2{
+                top: 0px;
+                left: 250px;
+            }
+            #img3{
+                top:0px;
+                left: 500px;
+            }
+            #img4{
+                top:250px;
+                left:0px;
+            }
+            #img5{
+                top:250px;
+                left:250px;
+            }
 
 /* footer code */
     .stickfoot{
@@ -149,6 +189,6 @@ input{
 
     /* vertical-align hack
 position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 80%;
+    transform: translateY(-80%);
     source: http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/ */
