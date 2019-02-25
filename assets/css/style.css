@@ -7,10 +7,6 @@
 h1,h2,h3,h4,h5,h6{
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
-body{
-    background-color: blue;
-    /* replace image!! */
-}
 
 /* header code */
 .sticky{
@@ -86,7 +82,7 @@ h2{
     margin-top: 20px;
     line-height: 150%;
 }
-    /* About Me */
+    /* .About Me */
         #facepic{
             left: 20;
             display: inline;
@@ -100,7 +96,7 @@ h2{
             height: 220px;
             font-size: 18px;
         }
-    /* Contact */
+    /* .Contact */
         input{
             width: 100%;
         }
@@ -120,7 +116,7 @@ h2{
         #submit:hover{
             color: yellow;
         }
-    /* Portfolio */
+    /* .Portfolio */
         .portfolio{
             display: inline-block;
             position: relative;
@@ -145,6 +141,8 @@ h2{
             width: 200px;
             background-color: #4aaaa5;
             color: #cccccc;
+            font-size: 18px;
+            font-family: 'Georgia', Times, Times New Roman, serif;
         }
             /* Gallery positioning */
             #img1{
